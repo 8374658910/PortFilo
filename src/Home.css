@@ -1,0 +1,247 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    
+}
+
+.HomeMain h1,h4{
+    position: relative;
+    color:white;
+}
+
+
+
+
+
+.HomePart1{
+    margin-left:10rem;
+    margin-top: 7rem;
+    line-height: 4rem;
+   
+}
+.HomePart1 h3{
+    color:rgb(89, 89, 89);
+}
+
+.HomePart1 h1{
+    font-size: 3.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0.5rem;
+
+}
+.HomePart1 span{
+    color:rgb(248, 204, 24);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.HomePart2 img {
+    position: absolute;
+width:25%;
+height:26rem;
+border-radius: 50vw;
+border-left:2px solid rgb(114, 114, 114) ;
+border-right:2px solid rgb(226, 226, 226) ;
+top:7rem;
+margin-left:50rem;
+
+
+
+
+}
+    
+
+#About{
+
+border:2px solid rgb(131, 130, 130);
+box-shadow:0vw 0vw 1vw #fff;
+background-color: rgba(84, 84, 84, 0.352);
+margin-top:14rem;
+margin-left:7rem;
+margin-right:7rem;
+height:30rem;
+color:white;
+position:relative;
+
+
+}
+.AboutMain{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.AboutPart1 img{
+     width:27vw;
+     margin:2rem;
+}
+.AboutPart2{
+    line-height: 2rem;;
+}
+.AboutPart2 h1{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.AboutPart2 button{
+    position:relative;
+    color:rgb(0, 0, 0);
+    width :10rem;
+    margin-left:5rem;
+    padding:0.5rem;
+    background-color: rgb(255, 204, 0);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;;
+
+}
+.AboutPart2 button:hover{
+    background-color: brown;
+    transform:translateY(-10px);
+}
+
+#Sevices {
+    position:relative;
+   
+ 
+}
+.Services0 h1 {
+    margin-left: 30rem;
+    margin-top:5rem;
+    color:rgb(240, 138, 29)
+
+}
+
+.Services0 p{
+    color: white;
+    margin-left: 25rem;
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+
+}
+.Service1{
+  
+    display:flex;
+
+}
+.boxService{
+    margin-top: 5rem;
+    margin-left:5rem;
+    width:20rem;
+    padding:2vw;
+
+
+    background-color: rgb(18, 28, 29);
+    position: relative;
+    color:rgb(150, 148, 148);
+    border-radius:3rem;
+}
+.boxService h1{
+    padding:1rem;
+
+}
+
+.boxService:hover {
+
+    background-color: #e8074e;
+    translate:(-50,-50) ;
+    transform:translateY(-50px);
+   
+    }
+
+
+
+    #Skillscontent h1{
+        
+        position:relative;
+        margin-left: 35rem;;
+        margin-top:7rem;
+    }
+    .Skills{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .Skillsborder {
+        border: 2px solid #fff;
+        width:20rem;
+        margin:2rem;
+        padding:2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem #cdcccc;
+
+    }
+    .Skillsborder:hover{
+              box-shadow:0 0 1rem rgb(255, 211, 18);
+        transform: translateY(-30px);
+    }
+    .Skillsborder figure img{
+
+    width:100%;
+    border-radius: 5rem;
+
+    }
+    .Skillsborder figcaption {
+        font-size: 2rem;
+        color:white;
+    }
+    .Skillsborder p{
+        margin-top: 1rem;
+        color:white;
+
+    }
+    .contactbody{
+        position:relative;
+        color:#fff;
+    }
+    .contactbody img{
+        margin-top:2rem;
+        width:100%;
+
+    }
+    .contactbody h1{
+        font-size: 3rem;
+        margin-top: 6vw;
+
+        margin-left: 35rem;
+    }
+    .contactMain{
+        position:absolute;
+         top: 170rem;
+         margin:3vw;
+         padding:2rem;
+         
+    
+    }
+    .contactMain input {
+        padding: 1rem;
+        font-size: 1.5vw;
+    }
+
+    .contacttext span{
+        color:blue;
+    }
+    .contactMain button{
+        padding:1rem;
+        width:10vw;
+        background-color:#e8074e;
+    }
+
+    .contactbody h3{
+     margin-left: 20vw;
+    }
+    .contactbody span{
+        color:gold;
+        margin-left: 1vw;
+    }
+    #AboutPage a{
+        text-decoration: none;
+        color:black;
+
+    }
+
+
+
+
+
+
+

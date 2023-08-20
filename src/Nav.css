@@ -1,0 +1,43 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+   
+ 
+}
+.Nav{
+
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    height:6vw;
+    border-bottom: 2px solid #858585;
+  
+
+}
+.nav1 img{
+    position:absolute;
+    width:3rem;
+    top:1rem;
+    left:4rem;
+     
+}
+.navbarContent  {
+
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    gap:3vw;
+    margin:3vw;
+
+
+}
+.navbarContent h3{
+       
+      margin-left:3vw ;
+      color:whitesmoke;
+      text-decoration: none;
+      list-style-type: none;
+} 
